@@ -1,19 +1,20 @@
----
-
 # Aplicación de Gestión para Restaurantes
 
 ## Patrón MVC Utilizado
 
 ### Modelo
-**Descripción:** El componente de Modelo se encarga de gestionar la lógica de negocio y los datos de la aplicación. Incluye clases que representan los objetos del dominio, como usuarios, productos y órdenes, así como las operaciones CRUD asociadas.
+**Descripción:** El componente de Modelo se encarga de gestionar la lógica de negocio y los datos de la aplicación. Incluye las clases que representan los objetos del dominio, como usuarios, productos y órdenes, así como las operaciones CRUD asociadas.
+
 **Implementación:** Creamos clases como `Usuario`, `Producto`, `Orden` que contienen métodos específicos para cada entidad. Además, incluimos clases de consulta que encapsulan la lógica de negocio y las interacciones con la base de datos.
 
 ### Vista
-**Descripción:** La Vista es responsable de la presentación de la interfaz de usuario (UI). Este componente muestra los datos al usuario y capta sus interacciones.
+**Descripción:** La Vista es responsable de la presentación de la interfaz de usuario (UI). Este componente muestra los datos al usuario y captura sus interacciones.
+
 **Implementación:** Utilizamos JavaFX para construir la interfaz gráfica de usuario. Creamos diversas ventanas y paneles para diferentes funcionalidades, como formularios de registro, tablas de visualización de productos, y un dashboard con gráficos y reportes.
 
 ### Controlador
 **Descripción:** El Controlador maneja la comunicación entre el Modelo y la Vista. Recibe entradas del usuario a través de la Vista, las procesa (utilizando la lógica del Modelo), y actualiza la Vista en consecuencia.
+
 **Implementación:** Desarrollamos clases controladoras como `CtrlUsuario`, `CtrlProducto` y `CtrlOrden`, que contienen métodos para actualizar los datos del Modelo y la Vista dependiendo de los eventos de la UI que se manejen.
 
 ## Lógica de Negocio
