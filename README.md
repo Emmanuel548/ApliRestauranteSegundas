@@ -61,11 +61,6 @@ Para la gestión de la persistencia de datos, utilizamos una base de datos relac
 - **Agregar un Producto:** Navega al panel de administración, selecciona la pestaña de productos y utiliza el formulario de agregar producto.
 - **Generar Reporte de Ventas:** Accede al dashboard y selecciona la opción para generar reportes desde la interfaz.
 
-
-Gracias por compartir la lista de dependencias. Vamos a incluir esta información en la sección de dependencias del archivo README para asegurar que cualquier usuario o desarrollador pueda configurar correctamente el entorno necesario para compilar y ejecutar tu aplicación.
-
-Aquí está cómo podrías incluir esta sección en tu README:
-
 ---
 
 ## Dependencias
