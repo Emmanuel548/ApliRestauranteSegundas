@@ -59,7 +59,7 @@ Para la gestión de la persistencia de datos, utilizamos una base de datos relac
 
 
 - **Agregar un Producto:** Navega al panel de administración, selecciona la pestaña de productos y utiliza el formulario de agregar producto.
-- **Generar Reporte de Ventas:** Accede al dashboard y selecciona la opción para generar reportes desde la interfaz.
+- **Generar ordenes:** Accede al dashboard y selecciona la opción para generar ordenes desde la interfaz como cliente.
 
 ---
 
